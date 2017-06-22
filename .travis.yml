@@ -18,7 +18,7 @@ addons:
     - mysql-client-core-5.6
     - mysql-client-5.6
 rvm:
-  - 2.4
+  - 2.4.1
   - 2.3
   - 2.2
   - 2.1
@@ -55,13 +55,13 @@ matrix:
         mariadb: 10.0
         hosts:
           - mysql2gem.example.com
-    - rvm: 2.4
+    - rvm: 2.4.1
       env: DB=mariadb10.1
       addons:
         mariadb: 10.1
         hosts:
           - mysql2gem.example.com
-    - rvm: 2.4
+    - rvm: 2.4.1
       env: DB=mariadb10.2
       addons:
         mariadb: 10.2
@@ -78,12 +78,12 @@ matrix:
           - mysql-server-5.5
           - mysql-client-core-5.5
           - mysql-client-5.5
-    - rvm: 2.4
+    - rvm: 2.4.1
       env: DB=mysql57
       addons:
         hosts:
           - mysql2gem.example.com
-    - rvm: 2.4
+    - rvm: 2.4.1
       env: DB=mysql80
       addons:
         hosts:
